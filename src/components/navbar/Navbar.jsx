@@ -24,7 +24,7 @@ const Navbar = () => {
               <li><Link to="/career">Career</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
 
-              <Link to="/contact"><button className="btn" >Self Carer</button></Link>
+              <Link to="/contact"><button className="btn-2" >Self Carer</button></Link>
             </ul>
           </div>
 

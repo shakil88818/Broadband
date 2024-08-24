@@ -64,3 +64,69 @@ export const Testimonials = [
         position: "CEO At Google"
     },
 ]
+
+
+
+
+
+export const HomePackagesData = [
+    {
+        id:1,
+        mbps:"20",
+        tk:"1050",
+        dial:"100"
+    },
+    {
+        id:2,
+        mbps:"30",
+        tk:"1275",
+        dial:"400"
+    },
+    
+    {
+        id:3,
+        mbps:"35",
+        tk:"1375",
+        dial:"400"
+    },
+    {
+        id:4,
+        mbps:"40",
+        tk:"1475",
+        dial:"400"
+    },
+
+    {
+        id:5,
+        mbps:"45",
+        tk:"1700",
+        dial:"400"
+    },
+    {
+        id:6,
+        mbps:"50",
+        tk:"1800",
+        dial:"400"
+    },
+
+    
+    {
+        id:7,
+        mbps:"60",
+        tk:"1900",
+        dial:"400"
+    },
+    {
+        id:8,
+        mbps:"75",
+        tk:"2000",
+        dial:"400"
+    },
+    {
+        id:9,
+        mbps:"80",
+        tk:"2100",
+        dial:"400"
+    },
+
+]

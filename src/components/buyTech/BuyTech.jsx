@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom"
+import Hero2img from "../../assets/images/hero2-2.png"
 
 
 const BuyTech = () => {
     return (
         <>
             <section className="">
-                <div className="relative bg-cover bg-center h-screen" style={{ backgroundImage: "url('https://i.postimg.cc/cLw8qCpY/hero.jpg')" }}>
+                <div className="relative bg-cover bg-center h-screen" style={{ backgroundImage: `url(${Hero2img})` }}>
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     <div className=" container mx-auto px-5 relative z-10 flex items-center justify-center md:justify-start  h-full ">

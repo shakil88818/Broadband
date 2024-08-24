@@ -1,3 +1,5 @@
+import { MdOutgoingMail } from "react-icons/md";
+import { BsBuildings } from "react-icons/bs";
 
 
 const Contact = () => {
@@ -5,7 +7,7 @@ const Contact = () => {
         <>
             <section className="bg-gray-300 py-16 md:py-20">
                 <div className="container px-5 mx-auto">
-                    <div className="lg:flex">
+                    <div className="lg:flex lg:gap-10">
 
                         <div className="lg:w-1/2">
                             <div
@@ -53,18 +55,28 @@ const Contact = () => {
                             </div>
                         </div>
 
-
-
-
                         <div className="lg:w-1/2">
-                            <h2 className="text-2xl md:text-4xl font-extrabold text-center pb-10">
-                            24/7 Support <span className="text-blue-600">Service</span>
+                            <h2 className="text-2xl md:text-4xl font-extrabold text-center lg:mt-0 mt-10 pb-10">
+                                24/7 Support <span className="text-blue-600">Service</span>
                             </h2>
 
-                            <div className="">
-                                <div className="bg-white">
-                                    <p>Enjoy Premium Customer Service</p>
+                            <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg bg-white px-10 py-7 rounded-lg lg:mt-12">
+                                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Let&apos;s Connect</h2>
+                                <p className="mt-6 text-lg leading-8 text-gray-600">Tell us about yourself, and let&apos;s explore how we can create something remarkable together.</p>
+
+                                <div className="py-10 flex flex-col gap-3">
+                                    <div className="flex items-center gap-1 text-gray-700">
+                                        <MdOutgoingMail size={32} />
+                                        <p>contact@sheikhgroup.net</p>
+                                    </div>
+
+                                    <div className="flex items-center gap-1 text-gray-700">
+                                        < BsBuildings size={32} />
+                                        <p>Plot 22, Road 4A, Uttara
+                                            Dhaka-1230, Bangladesh</p>
+                                    </div>
                                 </div>
+
                             </div>
 
                         </div>
