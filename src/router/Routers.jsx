@@ -3,6 +3,7 @@ import HomePage from "../pages/homepage/HomePage.jsx"
 import Layout from "../components/layout/Layout.jsx";
 import ContactPage from "../pages/contactPage/ContactPage.jsx";
 import PackagesPage from "../pages/packagesPage/PackagesPage.jsx";
+import AboutPage from "../pages/aboutPage/AboutPage.jsx";
 
 const Routers = () => {
   return (
@@ -12,6 +13,7 @@ const Routers = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />}/>
             <Route path="packages" element={<PackagesPage/>}/>
+            <Route path="about" element={<AboutPage />}/>
             <Route path="contact" element={<ContactPage />}/>
           </Route>
         </Routes>

@@ -1,10 +1,18 @@
-import Contact from "../../components/contact/Contact"
+
+import ContactCare from "../../components/contact/contactCare/ContactCare"
+import ContactHero from "../../components/contact/contactHero/ContactHero"
+import ContactUs from "../../components/contact/contactUs/ContactUs"
+import ReachUs from "../../components/contact/reachUs/ReachUs"
 
 
 const ContactPage = () => {
   return (
     <>
-      <Contact />
+      <ContactHero />
+      <ContactCare />
+      <ReachUs />
+      <ContactUs />
+      
     </>
   )
 }

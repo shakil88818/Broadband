@@ -4,3 +4,12 @@
 body{
     font-family: "Noto Sans Display", sans-serif;
 }
+
+
+.slick-slide div {
+    margin: 4px;
+}
+
+.slick-dots li button:before {
+    color: #3761fa !important;
+}
