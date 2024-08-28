@@ -18,7 +18,7 @@ const HotOffers = () => {
 
                         <div className="py-14 md:flex md:gap-10 md:justify-around">
 
-                            <div className="flex flex-col gap-10 max-w-lg">
+                            <div className="flex flex-col gap-10 max-w-lg" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                                 <h2 className="text-xl font-bold text-gray-700">Are you getting what you are paying for?</h2>
                                 <div className="flex flex-col gap-5 items-center justify-center">
                                     <img src={meter} className="min-w-sm" alt="" />
@@ -29,7 +29,7 @@ const HotOffers = () => {
                                 </h2>
                             </div>
 
-                            <div className="flex items-center justify-center gap-10">
+                            <div className="flex items-center justify-center gap-10" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
 
                                 <a href="#connection">
                                     <div className="bg-white flex items-center rounded-md h-52 py-5 px-4 w-40 cursor-pointer">

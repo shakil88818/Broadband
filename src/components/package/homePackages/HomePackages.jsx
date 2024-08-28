@@ -11,19 +11,19 @@ const HomePackages = () => {
       <section className="py-16 md:py-20 bg-gray-50">
         <div className="container mx-auto px-5">
           <div className="">
-            <h2 className="text-2xl md:text-4xl font-extrabold text-center pb-10">
+            <h2 className="text-2xl md:text-4xl font-extrabold text-center pb-10" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
               Home Internet<span className="text-blue-600"> Packages</span>
             </h2>
           </div>
 
-          <div className="flex flex-col items-center justify-center gap-4 pb-10">
+          <div className="flex flex-col items-center justify-center gap-4 pb-10" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
             <button className="btn-2 flex items-center gap-1"><span>Advance Search</span> <IoSearchSharp /></button>
             <button className="btn-2 bg-gray-400">Popular Packages</button>
           </div>
 
 
 
-          <div className="flex items-center justify-center flex-wrap gap-10 grow">
+          <div className="flex items-center justify-center flex-wrap gap-10 grow" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
 
             {
               HomePackagesData.map((packages) => {

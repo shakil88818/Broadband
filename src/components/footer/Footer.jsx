@@ -11,9 +11,9 @@ const Footer = () => {
   return (
     <>
       <section className="bg-gray-100 py-14 text-black">
-        <div className="container mx-auto px-3 flex flex-col md:justify-between md:flex-row  gap-10">
+        <div className="container mx-auto px-3 flex flex-col md:justify-between md:flex-row  gap-10" data-aos="zoom-in">
 
-            <div className=" flex flex-col items-center md:items-start md:w-2/5">
+            <div className=" flex flex-col items-center md:items-start md:w-2/5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                 <img src={broadband } className="w-[100px]" alt="logo" />
                 <p className="text-black pt-3 text-sm text-center md:text-left leading-7">Sheikh Broadband is a telecommunications company offering high-speed internet services, reliable connectivity, and customer support, primarily serving residential and business clients with various affordable packages</p>
                 <div className="text-black flex gap-5 mt-10">
@@ -26,7 +26,7 @@ const Footer = () => {
 
 
 
-            <div className="">
+            <div className="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
             <h4 className="text-[#0e4f9d] font-bold mb-5 text-center md:text-left ">Others Pages</h4>
               <ul className="text-sm flex flex-col gap-3 items-center md:items-start">
                 <li>
@@ -72,7 +72,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="">
+            <div className="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
             <h4 className="text-[#0e4f9d] font-bold mb-5 text-center md:text-left ">Quick Links</h4>
               <ul className="text-sm flex flex-col items-center md:items-start gap-3">
 
@@ -105,7 +105,7 @@ const Footer = () => {
 
 
 
-            <div className="">
+            <div className="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
             <h4 className="text-[#0e4f9d] font-bold mb-5 text-center md:text-left" >Contact Us</h4>
               <ul className="flex flex-col md:text-sm items-center md:items-start gap-3">
                 <p>Sector 15, Uttara</p>
@@ -119,7 +119,7 @@ const Footer = () => {
 
         <hr className="mt-10 h-[1px] bg-gray-400 border-0" />
 
-        <div className=" text-center pt-16 mt-5">
+        <div className=" text-center pt-16 mt-5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
           <p className="text-sm">© <span>Copyright</span> <strong className="sitename">Sheikh Broadband</strong> <span>All Rights Reserved</span></p>
         </div>
 

@@ -14,16 +14,16 @@ const PackagesCard = ({mbps,tk,dial}) => {
         <>
             <div className="max-w-sm grow px-5 py-7 bg-white rounded-lg shadow-lg border relative">
 
-                <div className="absolute top-0 right-0 bg-blue-500 text-white text-sm  px-2 py-1 rounded-bl-lg">
+                <div className="absolute top-0 right-0 bg-blue-500 text-white text-sm  px-2 py-1 rounded-bl-lg" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                     Popular
                 </div>
 
 
-                <div className="mb-4">
+                <div className="mb-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                     <h2 className="text-3xl font-bold hover:text-[#0e4f9d] cursor-pointer">{mbps}Mbps</h2>
                 </div>
 
-                <div className="flex justify-between px-3 sm:px-8 py-5">
+                <div className="flex justify-between px-3 sm:px-8 py-5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
 
                     <div className="py-4">
                         <p className="text-xs text-gray-500">Upto</p>
@@ -42,7 +42,7 @@ const PackagesCard = ({mbps,tk,dial}) => {
                 </div>
 
 
-                <div className="text-center pb-5">
+                <div className="text-center pb-5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                     <button
                         className="btn-2 text-gray-800 bg-gray-200"
                         onClick={toggleOffer}>
@@ -56,7 +56,7 @@ const PackagesCard = ({mbps,tk,dial}) => {
 
 
                 {showOffer && (
-                    <div className="flex flex-col gap-5">
+                    <div className="flex flex-col gap-5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
 
                         <div className="flex items-center justify-between ">
                             <h4 className="text-base font-semibold text-gray-600 ">Exclusive Privileges</h4>

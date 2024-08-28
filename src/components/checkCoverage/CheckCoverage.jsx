@@ -3,7 +3,7 @@ const CheckCoverage = () => {
     return (
         <>
             <section className="py-16 md:py-20 bg-gray-100">
-                <div className="container mx-auto px-5 flex flex-col items-center justify-center">
+                <div className="container mx-auto px-5 flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                     <div className="md:p-8 rounded-lg w-full max-w-lg md:max-w-xl lg:max-w-3xl">
                         <h2 className="title font-extrabold text-center pb-10">
                             Check <span className="text-blue-600">Coverage</span>

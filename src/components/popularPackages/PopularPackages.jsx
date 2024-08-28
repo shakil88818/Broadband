@@ -8,14 +8,14 @@ const PopularPackages = () => {
         <>
             <section className="py-12 md:py-16">
                 <div className="container mx-auto px-5">
-                    <h2 className="title font-extrabold text-center pb-14 md:pb-24">
+                    <h2 className="title font-extrabold text-center pb-14 md:pb-24" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                         Populer <span className="text-blue-600"> Packages</span>
                     </h2>
 
 
                     <div className="grid grid-cols-1 md:grid-cols-2  ">
 
-                        <div className="flex flex-col items-center justify-center">
+                        <div className="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                             <div className="text-6xl text-blue-800 pb-2">
                                 <FaCloudArrowDown />
                             </div>
@@ -45,7 +45,7 @@ const PopularPackages = () => {
                         </div>
 
 
-                        <div className="">
+                        <div className="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                             <img src={PopularPackageImg} alt="" />
                         </div>
 

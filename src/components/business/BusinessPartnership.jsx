@@ -47,7 +47,7 @@ const BusinessPartnership = () => {
         <>
             <section className="py-16 md:py-20 bg-gray-50">
                 <div className="container mx-auto px-5">
-                    <h2 className="title font-extrabold text-center">
+                    <h2 className="title font-extrabold text-center" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                     Our Enterprise <span className="text-blue-600"> Partnerships</span>
                     </h2>
 
@@ -62,7 +62,7 @@ const BusinessPartnership = () => {
                                 {
                                     PartnershipData.map((client) => {
                                         return (
-                                            <div key={client.id} className="">
+                                            <div key={client.id} className="" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                                                 <div className="px-4 py-10 bg-white border  rounded-md flex justify-center items-center shadow-md">
                                                     <img src={client.image} alt="" className="w-22 h-12" />
                                                 </div>
