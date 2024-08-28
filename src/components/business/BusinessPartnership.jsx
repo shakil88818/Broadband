@@ -1,14 +1,16 @@
-import { ClientData } from "../../assets/Data"
+
+
+import { PartnershipData } from "../../assets/Data"
 import Slider from "react-slick";
 
-const OurClient = () => {
+const BusinessPartnership = () => {
     var settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 5,
       initialSlide: 5,
-      slidesToScroll: 2,
+      slidesToScroll: 5,
       autoplay: true,
       autoplaySpeed: 1000,
       rows: 2,
@@ -45,12 +47,10 @@ const OurClient = () => {
         <>
             <section className="py-16 md:py-20 bg-gray-50">
                 <div className="container mx-auto px-5">
-                    <h2 className="title font-extrabold text-center pb-8">
-                        Our<span className="text-blue-600"> Client</span>
+                    <h2 className="title font-extrabold text-center">
+                    Our Enterprise <span className="text-blue-600"> Partnerships</span>
                     </h2>
-                    <div className="flex justify-center">
-                        <p className="text-center w-2/3">Our clients trust us to deliver fast, reliable, and affordable broadband services. Join our growing community of satisfied customers enjoying seamless connectivity and exceptional customer support.</p>
-                    </div>
+
 
                     <div className="pt-14">
                         <div className=" slider-container">
@@ -60,7 +60,7 @@ const OurClient = () => {
                         </div> */}
 
                                 {
-                                    ClientData.map((client) => {
+                                    PartnershipData.map((client) => {
                                         return (
                                             <div key={client.id} className="">
                                                 <div className="px-4 py-10 bg-white border  rounded-md flex justify-center items-center shadow-md">
@@ -81,4 +81,7 @@ const OurClient = () => {
     )
 }
 
-export default OurClient
+export default BusinessPartnership
+
+
+

@@ -12,4 +12,6 @@ body{
 
 .slick-dots li button:before {
     color: #3761fa !important;
+    font-size: 10px !important;
+    margin-top: 30px !important;
 }

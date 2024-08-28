@@ -18,12 +18,12 @@ const ContactCare = () => {
 
                             <div className="flex flex-col items-center justify-center gap-4">
                                 <img src={care2} alt="" className="w-20 md:w-full" />
-                                <p className="text-base md:text-2xl font-bold text-gray-700">We Listen</p>
+                                <p className="text-base md:text-2xl font-bold text-gray-700">We Care</p>
                             </div>
 
                             <div className="flex flex-col items-center justify-center gap-4">
                                 <img src={care3} alt="" className="w-20 md:w-full" />
-                                <p className="text-base md:text-2xl font-bold text-gray-700">We Listen</p>
+                                <p className="text-base md:text-2xl font-bold text-gray-700">We Solve</p>
                             </div>
                         </div>
 

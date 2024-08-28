@@ -12,47 +12,29 @@ const CheckCoverage = () => {
                             Please enter your district and thana to check coverage.
                         </p>
                         <form>
-                            <div className=" flex flex-col md:flex-row gap-5 py-7 md:items-start md:justify-between">
-                            <div className="mb-4 md:mb-6">
-                                <label
-                                    htmlFor="district"
-                                    className="block text-gray-700 font-medium mb-2"
-                                >
-                                    Your District Name
-                                </label>
-                                <select
-                                    id="district"
-                                    className="w-full md:w-80 h-10 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                >
-                                    <option value="">-</option>
-                                    {/* Add district options here */}
-                                </select>
-                            </div>
-                            
-                            <div className="mb-4 md:mb-6">
-                                <label
-                                    htmlFor="thana"
-                                    className="block text-gray-700 font-medium mb-2"
-                                >
-                                    Your Thana Name
-                                </label>
-                                <select
-                                    id="thana"
-                                    className="w-full md:w-80  h-10 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-                                >
-                                    <option value="">-</option>
-                                    {/* Add thana options here */}
-                                </select>
-                            </div>
+                            <div className=" flex items-center justify-center w-full py-7">
+
+                                <div className="w-full mb-4 md:mb-6 flex flex-col md:flex-row md:gap-9">
+                                    <div className="flex-1 mt-6">
+                                        <label className="contact-label">Your District Name</label>
+                                        <select className="contact-in">-</select>
+                                    </div>
+
+                                    <div className="w-full flex-1 mt-6">
+                                        <label className="contact-label">Your Upazilla Name</label>
+                                        <input type="text" className="contact-in" />
+                                    </div>
+                                </div>
+
                             </div>
 
                             <div className="flex items-center justify-center">
-                            <button
-                                type="submit"
-                                className="btn-2 w-32"
-                            >
-                                Check Area
-                            </button>
+                                <button
+                                    type="submit"
+                                    className="btn-2 w-32"
+                                >
+                                    Check Area
+                                </button>
                             </div>
                         </form>
                     </div>
