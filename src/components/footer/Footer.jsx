@@ -5,6 +5,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 
 import { FaFacebook, FaLinkedinIn, FaInstagramSquare, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,27 +30,30 @@ const Footer = () => {
             <h4 className="text-[#0e4f9d] font-bold mb-5 text-center md:text-left ">Others Pages</h4>
               <ul className="text-sm flex flex-col gap-3 items-center md:items-start">
                 <li>
-                  <a href="" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
+                  <Link to="/" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
                   < MdOutlineKeyboardArrowRight size={20} /> 
-                  <span>Home</span></a>
+                  <span>Home</span></Link>
                 </li>
 
                 <li>
-                  <a href="" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
+                  <Link to="/business" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
                   < MdOutlineKeyboardArrowRight size={20} /> 
-                  <span>Business</span></a>
+                  <span>Business</span>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
+                  <Link to="/about" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
                   < MdOutlineKeyboardArrowRight size={20} /> 
-                  <span>About us</span></a>
+                  <span>About us</span>
+                  </Link>
                 </li>
 
                 <li>
-                  <a href="" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
+                  <Link href="/packages" className="flex items-center gap-1 hover:text-[#0e4f9d]"> 
                   < MdOutlineKeyboardArrowRight size={20} /> 
-                  <span>Packeges</span></a>
+                  <span>Packeges</span>
+                  </Link>
                 </li>
 
                 <li>

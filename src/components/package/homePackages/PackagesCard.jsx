@@ -13,12 +13,12 @@ const PackagesCard = ({mbps,tk,dial}) => {
     return (
         <>
             <div className="max-w-sm grow px-5 py-7 bg-white rounded-lg shadow-lg border relative">
-                {/* Ribbon */}
+
                 <div className="absolute top-0 right-0 bg-blue-500 text-white text-sm  px-2 py-1 rounded-bl-lg">
                     Popular
                 </div>
 
-                {/* Card Content */}
+
                 <div className="mb-4">
                     <h2 className="text-3xl font-bold hover:text-[#0e4f9d] cursor-pointer">{mbps}Mbps</h2>
                 </div>
@@ -42,7 +42,6 @@ const PackagesCard = ({mbps,tk,dial}) => {
                 </div>
 
 
-                {/* Offer Toggle */}
                 <div className="text-center pb-5">
                     <button
                         className="btn-2 text-gray-800 bg-gray-200"
@@ -55,7 +54,7 @@ const PackagesCard = ({mbps,tk,dial}) => {
                     </button>
                 </div>
 
-                {/* Exclusive Privileges */}
+
                 {showOffer && (
                     <div className="flex flex-col gap-5">
 

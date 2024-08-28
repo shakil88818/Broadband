@@ -5,7 +5,7 @@ import { BsBuildings } from "react-icons/bs";
 const Contact = () => {
     return (
         <>
-            <section className="bg-gray-300 py-16 md:py-20">
+            <section className="bg-gray-300 py-16 md:py-20" id="connection">
                 <div className="container px-5 mx-auto">
                     <div className="lg:flex lg:gap-10">
 

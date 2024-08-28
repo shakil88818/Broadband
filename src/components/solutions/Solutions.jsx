@@ -14,7 +14,7 @@ const Solutions = () => {
 
                     <div className=" flex flex-col items-center  justify-center md:flex-row md:items-center md:justify-between">
                         <h1 className="text-sm text-center md:Text-lg font-bold text-gray-600">We have a verity of services to serve you with the latest Technology</h1>
-                        <button className="g-btn">Explore More <span className="font-bold">&rarr;</span></button>
+                        <button className="g-btn hover:text-blue-700">Explore More <span className="font-bold">&rarr;</span></button>
                     </div>
 
 
@@ -43,17 +43,17 @@ const Solutions = () => {
                         {
                             SolutionsData.map((solutions) => {
                                 return (
-                                    <div key={solutions.id} className=" flex flex-col basis-96 grow bg-white border border-gray-200 rounded-lg hover:shadow-lg transition ">
+                                    <div key={solutions.id} className=" flex flex-col md:basis-96 sm:grow bg-white border border-gray-200 rounded-lg hover:shadow-lg transition ">
                                         <div className="flex flex-col items-center justify-center p-5 hover:scale-[1.1] transition duration-500 cursor-pointer">
                                             <div className="px-4">
-                                                <p className="text-[50px] mt-7">{solutions.icon}</p>
+                                                <p className="text-[50px] mt-7 text-blue-400">{solutions.icon}</p>
                                             </div>
                                             <div className="p-5 text-center">
                                                 <a href="#">
-                                                    <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 ">{solutions.title}</h5>
+                                                    <h5 className="mb-2 text-xl font-bold tracking-tight text-blue-700 ">{solutions.title}</h5>
                                                 </a>
                                                 <p className="mb-3 desc">{solutions.desc}</p>
-                                                <a href="#" className="inline-flex items-center py-2 font-semibold text-center text-blue-950">
+                                                <a href="#" className="inline-flex items-center py-2 font-semibold text-center text-blue-950 hover:text-blue-700">
                                                     Explore More
                                                     <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />

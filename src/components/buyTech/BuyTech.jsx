@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 import Hero2img from "../../assets/images/hero2-2.png"
 
 
@@ -13,11 +13,11 @@ const BuyTech = () => {
                         <div className="text-white text-center md:text-start">
                             <h1 className="text-4xl md:text-6xl font-bold ">Buy Tech Items <br/> on sheikh technologies</h1>
                             <div className="mt-10">
-                                <Link>
+                                <a href="https://www.daraz.com.bd/shop/m8uwwicz/" target="_blank" >
                                     <button className="btn-2 border-blue-900">
                                         Buy Now&rarr;
                                     </button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>

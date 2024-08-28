@@ -15,3 +15,10 @@ body{
     font-size: 10px !important;
     margin-top: 30px !important;
 }
+
+
+#sidebar ul li a.active {
+    color: #3761fa;
+    border-bottom: 2px solid #3761fa;
+    padding-bottom: 7px;
+}

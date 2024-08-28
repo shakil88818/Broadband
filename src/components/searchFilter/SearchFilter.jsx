@@ -1,6 +1,7 @@
 import { IoIosArrowDown } from "react-icons/io";
 
 
+
 const SearchFilter = () => {
     return (
         <>
@@ -11,11 +12,11 @@ const SearchFilter = () => {
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4 pb-10">
                     <button className="btn-2 w-40 ">Packages</button>
-                    <button className="btn-2 bg-gray-400 w-40">Reconnection</button>
+                    <a href="#connection"><button className="btn-2 bg-gray-400 w-40">Reconnection</button></a>
                 </div>
 
                 <div className="flex flex-wrap items-center justify-center gap-5">
-                    {/* Price Range */}
+
 
                     <div className="bg-gray-100 rounded-lg flex basis-80 flex-col gap-7 p-6 w-full md:w-2/6">
                         <div className="flex items-center justify-between">
@@ -30,7 +31,7 @@ const SearchFilter = () => {
                         </div>
                     </div>
 
-                    {/* Network Bandwidth */}
+
                     <div className="bg-gray-100 rounded-lg flex basis-80  flex-col gap-7 p-6 w-full md:w-2/6">
                         <div className="flex items-center justify-between">
                             <h3 className="text-blue-600 text-lg font-bold mb-2">Network Bandwidth</h3>
@@ -44,7 +45,7 @@ const SearchFilter = () => {
                         </div>
                     </div>
 
-                    {/* Special Need */}
+
                     <div className="bg-gray-100 rounded-lg flex basis-80  flex-col gap-7 p-6 w-full md:w-2/6">
                         <div className="flex items-center justify-between">
                             <h3 className="text-blue-600 text-lg font-bold mb-2">Special Need</h3>
@@ -59,9 +60,9 @@ const SearchFilter = () => {
                     </div>
 
                 </div>
-                {/* View Result Button */}
+
                 <div className="flex items-center justify-center pt-12">
-                <button className="btn-2 border-blue-900 bg-white text-black hover:text-white hover:bg-blue-900 mt-4 md:mt-0 w-full md:w-auto">
+                <button className="btn-2 border-blue-900 bg-white text-black hover:text-white hover:bg-blue-900 mt-4 md:mt-0  md:w-auto">
                     View Result
                 </button>
                 </div>

@@ -1,6 +1,7 @@
 import { FaCloudArrowDown } from "react-icons/fa6";
 
 import PopularPackageImg from "../../assets/images/popular-package.png"
+import { Link } from "react-router-dom";
 
 const PopularPackages = () => {
     return (
@@ -38,7 +39,7 @@ const PopularPackages = () => {
                             </div>
 
                             <div>
-                                <button className="btn-2">View All Packages</button>
+                                <Link to="/packages"><button className="btn-2">View All Packages</button></Link>
                             </div>
 
                         </div>

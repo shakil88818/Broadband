@@ -5,11 +5,13 @@ import ContactPage from "../pages/contactPage/ContactPage.jsx";
 import PackagesPage from "../pages/packagesPage/PackagesPage.jsx";
 import AboutPage from "../pages/aboutPage/AboutPage.jsx";
 import BusinessPage from "../pages/businessPage/BusinessPage.jsx";
+import ScrollToTop from "../components/scrollToTop/ScrollToTop.jsx";
 
 const Routers = () => {
   return (
     <>
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />}/>

@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom"
 import meter from "../../assets/images/bandwidth-meter.png"
 import getSheikhBroadnamd from "../../assets/images/get.png"
 import sendConcern from "../../assets/images/send-us-your-concerns.png"
@@ -19,7 +21,7 @@ const HotOffers = () => {
                             <div className="flex flex-col gap-10 max-w-lg">
                                 <h2 className="text-xl font-bold text-gray-700">Are you getting what you are paying for?</h2>
                                 <div className="flex flex-col gap-5 items-center justify-center">
-                                <img src={meter} className="min-w-sm" alt="" />
+                                    <img src={meter} className="min-w-sm" alt="" />
                                     <button className="btn-2 w-32">Click Here</button>
                                 </div>
                                 <h2 className="title font-extrabold text-center pb-10">
@@ -29,19 +31,24 @@ const HotOffers = () => {
 
                             <div className="flex items-center justify-center gap-10">
 
-                                <div className="bg-white flex items-center rounded-md h-52 py-5 px-4 w-40">
-                                    <div className=" flex flex-col justify-center items-center gap-5">
-                                        <img src={getSheikhBroadnamd} className="w-16" alt="" />
-                                        <p className="font-bold text-gray-900 text-center">Get Sheikh Broadband Now</p>
+                                <a href="#connection">
+                                    <div className="bg-white flex items-center rounded-md h-52 py-5 px-4 w-40 cursor-pointer">
+                                        <div className=" flex flex-col justify-center items-center gap-5">
+                                            <img src={getSheikhBroadnamd} className="w-16" alt="" />
+                                            <p className="font-bold text-gray-900 text-center">Get Sheikh Broadband Now</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
 
-                                <div className="bg-white flex items-center rounded-md h-52 py-5 px-4 w-40">
-                                    <div className="flex flex-col justify-center items-center gap-5">
-                                        <img src={sendConcern} className="w-16" alt="" />
-                                        <p className="font-bold text-gray-900 text-center">Send Us your concern</p>
+
+                                <Link to="/contact#reach">
+                                    <div className="bg-white flex items-center rounded-md h-52 py-5 px-4 w-40 cursor-pointer">
+                                        <div className="flex flex-col justify-center items-center gap-5">
+                                            <img src={sendConcern} className="w-16" alt="" />
+                                            <p className="font-bold text-gray-900 text-center">Send Us your concern</p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
 
                             </div>
 

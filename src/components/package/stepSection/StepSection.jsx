@@ -23,7 +23,7 @@ const StepSection = () => {
                             <img src={step2} className="w-10 md:w-16" alt="" />
                             <p className="text-blue-800 text-4xl md:text-7xl">&rarr;</p>
                         </div>
-                        <p className="pt-6 text-sm font-semibold md:text-lg">Check Network Coverage</p>
+                        <p className="pt-6 text-sm font-semibold md:text-lg">Choose Package</p>
                     </div>
 
                     <div className="">
