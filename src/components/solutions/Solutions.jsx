@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import SolutionsData from "../../assets/SolutionsData.jsx"
 
 
@@ -14,7 +15,9 @@ const Solutions = () => {
 
                     <div className=" flex flex-col items-center  justify-center md:flex-row md:items-center md:justify-between">
                         <h1 className="text-sm text-center md:Text-lg font-bold text-gray-600">We have a verity of services to serve you with the latest Technology</h1>
-                        <button className="g-btn hover:text-blue-700">Explore More <span className="font-bold">&rarr;</span></button>
+                        <Link>
+                            <button className="g-btn hover:text-blue-700">Explore More <span className="font-bold">&rarr;</span></button>
+                        </Link>
                     </div>
 
 
@@ -53,12 +56,12 @@ const Solutions = () => {
                                                     <h5 className="mb-2 text-xl font-bold tracking-tight text-blue-700 ">{solutions.title}</h5>
                                                 </a>
                                                 <p className="mb-3 desc">{solutions.desc}</p>
-                                                <a href="#" className="inline-flex items-center py-2 font-semibold text-center text-blue-950 hover:text-blue-700">
+                                                <Link to="/packages" className="inline-flex items-center py-2 font-semibold text-center text-blue-950 hover:text-blue-700">
                                                     Explore More
                                                     <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                                                     </svg>
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
