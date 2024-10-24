@@ -36,7 +36,7 @@ const Navbar = () => {
               <li><NavLink to="/about" className="hover:text-[#3761fa] transition ease-in-out">About Us</NavLink></li>
               <li><NavLink to="/contact" className="hover:text-[#3761fa] transition ease-in-out">Contact Us</NavLink></li>
 
-              <Link to="/contact"><button className="btn-2" >Self Carer</button></Link>
+              <Link to="/selfcare"><button className="btn-2" >Self Carer</button></Link>
             </ul>
           </div>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
 
 
               <div className="pt-5">
-                <Link to="/contact"><button className="btn-2" >Self Carer</button></Link>
+                <Link to="/selfcare"><button className="btn-2" >Self Carer</button></Link>
               </div>
 
             </ul>

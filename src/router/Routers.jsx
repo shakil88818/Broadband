@@ -6,6 +6,10 @@ import PackagesPage from "../pages/packagesPage/PackagesPage.jsx";
 import AboutPage from "../pages/aboutPage/AboutPage.jsx";
 import BusinessPage from "../pages/businessPage/BusinessPage.jsx";
 import ScrollToTop from "../components/scrollToTop/ScrollToTop.jsx";
+import SelfCarePage from "../pages/selfCarePage/SelfCarePage.jsx";
+import Login from "../components/selfCare/Login.jsx";
+import Register from "../components/selfCare/Register.jsx";
+import LayoutSelfCare from "../components/selfCare/LayoutSelfCare.jsx";
 
 const Routers = () => {
   return (
@@ -20,6 +24,14 @@ const Routers = () => {
             <Route path="about" element={<AboutPage />}/>
             <Route path="contact" element={<ContactPage />}/>
           </Route>
+
+
+          <Route path="/" element={<LayoutSelfCare />}>
+            <Route path="selfcare" element={<SelfCarePage/>}/>
+            <Route path="selfcare/login" element={<Login/>}/>
+            <Route path="selfcare/register" element={<Register/>}/>
+          </Route>
+
         </Routes>
       </BrowserRouter>
     </>

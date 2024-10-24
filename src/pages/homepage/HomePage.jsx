@@ -7,6 +7,7 @@ import SearchFilter from "../../components/searchFilter/SearchFilter.jsx"
 import Contact from "../../components/contact/Contact.jsx"
 import Solutions from "../../components/solutions/Solutions.jsx"
 import PopularPackages from "../../components/popularPackages/PopularPackages.jsx"
+import PayCoverTouch from "../../components/payCoverTouch/PayCoverTouch.jsx"
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Solutions />
       <PopularPackages />
       <CheckCoverage />
+      <PayCoverTouch />
       <HotOffers />
       <BuyTech />
       <Contact />
