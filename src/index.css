@@ -7,7 +7,7 @@
         @apply border rounded-[50px] bg-[#0e4f9d] text-white hover:bg-blue-900 hover:text-white transition ease-in px-5 py-3
     }
     .btn-2{
-        @apply border rounded-lg bg-[#0e4f9d] text-white hover:bg-blue-900 hover:text-white transition ease-in px-5 py-2
+        @apply  rounded-lg bg-[#0e4f9d] text-white hover:bg-blue-900 hover:text-white transition ease-in px-5 py-2 
     }
     .desc{
         @apply text-base text-gray-500 font-normal
