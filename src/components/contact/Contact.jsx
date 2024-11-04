@@ -1,11 +1,50 @@
 import { MdOutgoingMail } from "react-icons/md";
 import { BsBuildings } from "react-icons/bs";
 
+import axios from "axios";
+import { useState } from "react"
+import { toast, ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+
+    const [values, setValues] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        district: "",
+        upazilla: "",
+        message: ""
+    })
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setValues({ ...values, [name]: value })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        try {
+            axios.post("http://localhost:3002/api/contact", values)
+            toast("Message Sent Successfully")
+            setValues({
+                name: "",
+                phone: "",
+                email: "",
+                district: "",
+                upazilla: "",
+                message: ""
+            })
+
+        } catch (error) {
+            console.log(error)
+        }
+    }
+
     return (
         <>
             <section className="bg-white py-16 md:py-20" id="connection">
+                <ToastContainer />
                 <div className="container px-5 mx-auto">
                     <div className="lg:flex lg:gap-10">
 
@@ -17,36 +56,72 @@ const Contact = () => {
                                 </h2>
 
                                 <div className="bg-white px-3 md:px-10 py-6 rounded-lg shadow-lg" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
-                                    <form className="mt-6">
+                                    <form className="mt-6" onSubmit={handleSubmit}>
                                         <div className="flex-1">
                                             <label className="contact-label">Full Name</label>
-                                            <input type="text" placeholder="Enter Your Name" className="contact-in" />
+                                            <input
+                                                type="text"
+                                                placeholder="Enter Your Name" className="contact-in"
+                                                name="name"
+                                                value={values.name}
+                                                onChange={handleChange}
+                                                required />
                                         </div>
 
                                         <div className="flex-1 mt-6">
                                             <label className="contact-label">Number</label>
-                                            <input type="number" placeholder="01XXXXXXXXX" className="contact-in" />
+                                            <input
+                                                type="number"
+                                                placeholder="01XXXXXXXXX"
+                                                className="contact-in"
+                                                name="phone"
+                                                value={values.phone}
+                                                onChange={handleChange}
+                                                required />
                                         </div>
 
                                         <div className="flex-1 mt-6">
                                             <label className="contact-label">Email address</label>
-                                            <input type="email" placeholder="example@gmail.com" className="contact-in" />
+                                            <input
+                                                type="email"
+                                                placeholder="example@gmail.com" className="contact-in"
+                                                name="email"
+                                                value={values.email}
+                                                onChange={handleChange}
+                                                required />
                                         </div>
 
                                         <div className="flex-1 mt-6">
                                             <label className="contact-label">Your District Name</label>
-                                            <input type="text" className="contact-in" />
+                                            <input
+                                                type="text"
+                                                className="contact-in"
+                                                name="district"
+                                                value={values.district}
+                                                onChange={handleChange}
+                                                required />
                                         </div>
 
                                         <div className="flex-1 mt-6">
                                             <label className="contact-label">Your Upazilla Name</label>
-                                            <input type="text" className="contact-in" />
+                                            <input
+                                                type="text"
+                                                className="contact-in"
+                                                name="upazilla"
+                                                value={values.upazilla}
+                                                onChange={handleChange}
+                                                required />
                                         </div>
 
 
                                         <div className="w-full mt-6">
                                             <label className="contact-label">Message</label>
-                                            <textarea className="contact-text-area" placeholder="Message"></textarea>
+                                            <textarea
+                                                className="contact-text-area" placeholder="Message"
+                                                name="message"
+                                                value={values.message}
+                                                onChange={handleChange}>
+                                            </textarea>
                                         </div>
 
                                         <button className="btn-2 w-full mt-5">
