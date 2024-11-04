@@ -57,19 +57,19 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden md:block " id="sidebar">
-            <ul className="text-lg flex items-center justify-center gap-6 text-black">
+            <ul className="text-lg flex items-center justify-center md:gap-4 lg:gap-6 text-black">
             <li><NavLink to="/" className="hover:text-[#3761fa] transition ease-in-out text-lg">Home</NavLink></li>
               <li><NavLink to="/packages" className="hover:text-[#3761fa] transition ease-in-out text-lg">Packages</NavLink></li>
               <li><NavLink to="/coverage" className="hover:text-[#3761fa] transition ease-in-out text-lg">Coverage</NavLink></li>
               <li><NavLink to="/business" className="hover:text-[#3761fa] transition ease-in-out text-lg">Business</NavLink></li>
-              <li><NavLink to="/about" className="hover:text-[#3761fa] transition ease-in-out text-lg">About Us</NavLink></li>
-              <li><NavLink to="/contact" className="hover:text-[#3761fa] transition ease-in-out text-lg">Contact Us</NavLink></li>
+              <li><NavLink to="/about" className="hover:text-[#3761fa] transition ease-in-out text-lg">About</NavLink></li>
+              <li><NavLink to="/contact" className="hover:text-[#3761fa] transition ease-in-out text-lg">Contact</NavLink></li>
 
               <Link to="/selfcare"><button className="btn-2 bg-[#3761fa]" >Self Carer</button></Link>
             </ul>
           </div>
 
-          <div className="hidden lg:block">
+          <div className="hidden xl:block">
             <div className="flex items-center gap-2">
               <FaSquareWhatsapp size={45} className="text-white hover:text-white hover:bg-[#3761fa] bg-[#3761fa] p-1 rounded " />
               <div>
