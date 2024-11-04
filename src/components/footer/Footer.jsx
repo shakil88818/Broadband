@@ -17,7 +17,7 @@ const Footer = () => {
                 <img src={broadband } className="w-[100px]" alt="logo" />
                 <p className="text-black pt-3 text-sm text-center md:text-left leading-7">Sheikh Broadband is a telecommunications company offering high-speed internet services, reliable connectivity, and customer support, primarily serving residential and business clients with various affordable packages</p>
                 <div className="text-black flex gap-5 mt-10">
-                <a href="https://www.facebook.com/sheikhgroup07" target="_blank"><FaFacebook size={25}/></a>
+                <a href="https://www.facebook.com/sheikhbroadband07" target="_blank"><FaFacebook size={25}/></a>
                 <a href="" target="_blank"><FaLinkedinIn size={25} /></a>
                 <a href="" target="_blank"><FaInstagramSquare size={25}/></a>
                 <a href="" target="_blank"><FaYoutube size={25}/></a>

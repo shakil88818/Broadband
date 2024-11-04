@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import coverage from "../../assets/images/covarage.jpg"
 
 const PayCoverTouch = () => {
@@ -8,13 +9,16 @@ const PayCoverTouch = () => {
           <div className="flex flex-col md:flex-row items-center justify-center rounded-md bg-blue-100 text-black">
             <div className=" order-2  md:w-1/2 text-center p-9 md:text-left space-y-4 ">
               <h2 className="text-3xl lg:text-5xl font-bold">Ready to start?<br />Locate our coverage area</h2>
-              <p>
+              <p className="pb-4">
                 Sheikh Broadband is spread almost everywhere in Dhaka city & Mymensingh.<br />
                 Check the availability of all coverage areas in Dhaka  & Mymensingh.
               </p>
-              <button className="btn-2">
-                Coverage Area
-              </button>
+
+              <Link to="/coverage" className="">
+                <button className="btn-2">
+                  Coverage Area
+                </button>
+              </Link>
             </div>
 
             <div className="md:w-1/2 relative">

@@ -8,11 +8,11 @@ const HotOffers = () => {
     return (
         <>
             <section className="pt-16 md:pt-20 ">
-                <div className="pb-8">
+                {/* <div className="pb-8">
                     <h2 className="title font-extrabold text-center md:pb-10">
                         Ongoing<span className="text-blue-600"> Hot Offers</span>
                     </h2>
-                </div>
+                </div> */}
                 <div className="bg-gray-100">
                     <div className="container mx-auto px-5 ">
 
@@ -22,7 +22,7 @@ const HotOffers = () => {
                                 <h2 className="text-xl font-bold text-gray-700">Are you getting what you are paying for?</h2>
                                 <div className="flex flex-col gap-5 items-center justify-center">
                                     <img src={meter} className="min-w-sm" alt="" />
-                                    <button className="btn-2 w-32">Click Here</button>
+                                   <a href="https://fast.com" target="_blank"><button className="btn-2 w-32">Click Here</button></a> 
                                 </div>
                                 <h2 className="title font-extrabold text-center pb-10">
                                     What is my <span className="text-blue-600"> current internet speed?</span>

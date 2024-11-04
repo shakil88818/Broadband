@@ -32,7 +32,7 @@ const ReachUs = () => {
                                 <div className=" bg-white px-2 py-10 transition-all mt-7 rounded-2xl border hover:border-none hover:shadow-xl cursor-pointer" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
                                     <div className="flex flex-col items-center gap-1">
                                         <p className="text-lg text-blue-800 font-bold text-center">Mail us at</p>
-                                        <h3 className="font-bold text-lg md:text-2xl text-gray-800 leading-8"><a href="mailto:contact@sheikhgroup.net">contact@sheikhgroup.net</a></h3>
+                                        <h3 className="font-bold text-lg md:text-2xl text-gray-800 leading-8"><a href="mailto:contact@sheikhgroup.net">broadband@sheikhgroup.net</a></h3>
                                     </div>
                                 </div>
 

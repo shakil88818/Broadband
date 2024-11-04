@@ -10,6 +10,7 @@ import SelfCarePage from "../pages/selfCarePage/SelfCarePage.jsx";
 import Login from "../components/selfCare/Login.jsx";
 import Register from "../components/selfCare/Register.jsx";
 import LayoutSelfCare from "../components/selfCare/LayoutSelfCare.jsx";
+import CoveragePage from "../pages/coveragePage/CoveragePage.jsx";
 
 const Routers = () => {
   return (
@@ -20,6 +21,7 @@ const Routers = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />}/>
             <Route path="packages" element={<PackagesPage/>}/>
+            <Route path="coverage" element={<CoveragePage/>}/>
             <Route path="business" element={<BusinessPage/>}/>
             <Route path="about" element={<AboutPage />}/>
             <Route path="contact" element={<ContactPage />}/>

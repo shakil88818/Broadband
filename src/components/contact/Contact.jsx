@@ -20,7 +20,7 @@ const Contact = () => {
                                     <form className="mt-6">
                                         <div className="flex-1">
                                             <label className="contact-label">Full Name</label>
-                                            <input type="text" placeholder="John Doe" className="contact-in" />
+                                            <input type="text" placeholder="Enter Your Name" className="contact-in" />
                                         </div>
 
                                         <div className="flex-1 mt-6">
@@ -30,12 +30,12 @@ const Contact = () => {
 
                                         <div className="flex-1 mt-6">
                                             <label className="contact-label">Email address</label>
-                                            <input type="email" placeholder="johndoe@example.com" className="contact-in" />
+                                            <input type="email" placeholder="example@gmail.com" className="contact-in" />
                                         </div>
 
                                         <div className="flex-1 mt-6">
                                             <label className="contact-label">Your District Name</label>
-                                            <select className="contact-in">-</select>
+                                            <input type="text" className="contact-in" />
                                         </div>
 
                                         <div className="flex-1 mt-6">
@@ -71,7 +71,7 @@ const Contact = () => {
                                 <div className="py-10 flex flex-col gap-3">
                                     <div className="flex items-center gap-1 text-gray-700">
                                         <MdOutgoingMail size={32} />
-                                        <p>contact@sheikhgroup.net</p>
+                                        <p>broadband@sheikhgroup.net</p>
                                     </div>
 
                                     <div className="flex items-center gap-1 text-gray-700">

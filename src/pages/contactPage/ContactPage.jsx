@@ -1,6 +1,6 @@
 
 import ContactCare from "../../components/contact/contactCare/ContactCare"
-import ContactHero from "../../components/contact/contactHero/ContactHero"
+import ContactHero from "../../components/hero/ContactHero"
 import ContactUs from "../../components/contact/contactUs/ContactUs"
 import ReachUs from "../../components/contact/reachUs/ReachUs"
 

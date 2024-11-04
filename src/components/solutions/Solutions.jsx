@@ -14,10 +14,7 @@ const Solutions = () => {
                 <div className="container mx-auto px-5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="60">
 
                     <div className=" flex flex-col items-center  justify-center md:flex-row md:items-center md:justify-between">
-                        <h1 className="text-sm text-center md:Text-lg font-bold text-gray-600">We have a verity of services to serve you with the latest Technology</h1>
-                        <Link>
-                            <button className="g-btn hover:text-blue-700">Explore More <span className="font-bold">&rarr;</span></button>
-                        </Link>
+                        <h1 className=" text-center md:Text-lg font-bold text-gray-600">We have a verity of services to serve you with the latest Technology</h1>
                     </div>
 
 
