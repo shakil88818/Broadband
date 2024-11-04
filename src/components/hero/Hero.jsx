@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <>
             <section className="">
-                <div className="relative  bg-cover bg-center h-[56vh] md:h-[80vh]" style={{ backgroundImage: `url(${heroImage})` }}>
+                <div className="relative  bg-cover bg-center h-[67vh] md:h-[80vh]" style={{ backgroundImage: `url(${heroImage})` }}>
 
                 </div>
 
