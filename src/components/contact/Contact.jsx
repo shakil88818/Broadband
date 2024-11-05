@@ -25,7 +25,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         try {
-            axios.post("http://localhost:3002/api/contact", values)
+            axios.post("http://localhost:3002/api/connection", values)
             toast("Message Sent Successfully")
             setValues({
                 name: "",
