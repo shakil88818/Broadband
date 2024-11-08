@@ -10,8 +10,9 @@ const ContactPage = () => {
     <>
       <ContactHero />
       <ContactCare />
-      <ReachUs />
       <ContactUs />
+      <ReachUs />
+
       
     </>
   )
