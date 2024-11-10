@@ -115,13 +115,14 @@ const Contact = () => {
 
 
                                         <div className="w-full mt-6">
-                                            <label className="contact-label">Message</label>
-                                            <textarea
-                                                className="contact-text-area" placeholder="Message"
+                                            <label className="contact-label">Your Pakages</label>
+                                            <input 
+                                                type="text"
+                                                className="contact-in" placeholder="Pakages 10 Mbps"
                                                 name="message"
                                                 value={values.message}
-                                                onChange={handleChange}>
-                                            </textarea>
+                                                onChange={handleChange} /> 
+                          
                                         </div>
 
                                         <button className="btn-2 w-full mt-5">

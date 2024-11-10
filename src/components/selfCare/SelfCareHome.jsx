@@ -10,9 +10,9 @@ const SelfCareHome = () => {
                     <div className="lg:flex lg:flex-col lg:justify-end items-end">
 
                         <div className=" bg-gray-200 lg:bg-white h-screen lg:fixed lg:top-0 lg:left-0 flex flex-col items-center justify-center lg:w-[40%] ">
-                            <div className="mb-24">
+                            <Link to="/" className="mb-24">
                                 <img src={broadbandlogo} className="md:w-44" alt="" />
-                            </div>
+                            </Link>
                             <div className="flex flex-col gap-3">
                                <Link to="/selfcare/login"> <button className="btn-2 w-60">Login</button></Link>
                                 <Link to="/selfcare/register"><button className="btn-2  w-60">Sign In</button></Link>

@@ -8,9 +8,9 @@ const NavbarSelfCare = () => {
     <>
       <header className="bg-white h-[80px] flex justify-center shadow-xl sticky top-0 z-50">
         <div className="container mx-auto px-3 flex justify-between items-center">
-          <div className="">
+          <Link to="/" className="">
             <img className="w-32" src={broadband} alt="" />
-          </div>
+          </Link>
 
 
           <div className="">

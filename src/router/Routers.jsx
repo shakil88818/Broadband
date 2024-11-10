@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout.jsx";
 import ContactPage from "../pages/contactPage/ContactPage.jsx";
 import PackagesPage from "../pages/packagesPage/PackagesPage.jsx";
 import AboutPage from "../pages/aboutPage/AboutPage.jsx";
-import BusinessPage from "../pages/businessPage/BusinessPage.jsx";
+// import BusinessPage from "../pages/businessPage/BusinessPage.jsx";
 import ScrollToTop from "../components/scrollToTop/ScrollToTop.jsx";
 import SelfCarePage from "../pages/selfCarePage/SelfCarePage.jsx";
 import Login from "../components/selfCare/Login.jsx";
@@ -22,7 +22,7 @@ const Routers = () => {
             <Route index element={<HomePage />}/>
             <Route path="packages" element={<PackagesPage/>}/>
             <Route path="coverage" element={<CoveragePage/>}/>
-            <Route path="business" element={<BusinessPage/>}/>
+            {/* <Route path="business" element={<BusinessPage/>}/> */}
             <Route path="about" element={<AboutPage />}/>
             <Route path="contact" element={<ContactPage />}/>
           </Route>

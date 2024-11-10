@@ -68,9 +68,9 @@ const PackagesCard = ({mbps,tk,dial}) => {
                             <p className="text-sm text-gray-700">Dial {dial} Min TalkTime</p>
                         </div>
 
-                        <div className="text-center">
+                        <a className="text-center" href="#connection">
                             <button className="btn-2 w-52"> Choose this package</button>
-                        </div>
+                        </a>
 
                     </div>
                 )}

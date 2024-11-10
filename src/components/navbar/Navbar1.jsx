@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <>
       <header className="bg-[#3761fa] py-2">
-        <div className="text-white font-bold flex container px-3 items-center justify-center gap-2">
+        <div className="text-white font-bold flex items-center justify-center gap-2">
           <p><MdOutgoingMail size={32} /></p>
           <p>broadband@sheikhgroup.net</p>
         </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
             <li><NavLink to="/" className="hover:text-[#3761fa] transition ease-in-out text-lg">Home</NavLink></li>
               <li><NavLink to="/packages" className="hover:text-[#3761fa] transition ease-in-out text-lg">Packages</NavLink></li>
               <li><NavLink to="/coverage" className="hover:text-[#3761fa] transition ease-in-out text-lg">Coverage</NavLink></li>
-              <li><NavLink to="/business" className="hover:text-[#3761fa] transition ease-in-out text-lg">Business</NavLink></li>
+              {/* <li><NavLink to="/business" className="hover:text-[#3761fa] transition ease-in-out text-lg">Business</NavLink></li> */}
               <li><NavLink to="/about" className="hover:text-[#3761fa] transition ease-in-out text-lg">About</NavLink></li>
               <li><NavLink to="/contact" className="hover:text-[#3761fa] transition ease-in-out text-lg">Contact</NavLink></li>
 
@@ -120,9 +120,9 @@ const Navbar = () => {
                 <Link to="/packages" className="hover:text-[#3761fa] transition ease-in-out block p-2 rounded hover:bg-gray-100 text-lg">Packages</Link>
               </li>
               <li><NavLink to="/coverage" className="hover:text-[#3761fa] transition ease-in-out block p-2 rounded hover:bg-gray-100 text-lg">Coverage</NavLink></li>
-              <li>
+              {/* <li>
                 <Link to="/business" className="hover:text-[#3761fa] transition ease-in-out block p-2 rounded hover:bg-gray-100 text-lg">Business</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/about" className="hover:text-[#3761fa] transition ease-in-out block p-2 rounded hover:bg-gray-100 text-lg">About Us</Link></li>
               <li>
