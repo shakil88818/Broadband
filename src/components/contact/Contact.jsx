@@ -25,7 +25,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         try {
-            axios.post("http://localhost:3002/api/connection", values)
+            axios.post("https://broadbandapi.sheikhgroup.net/api/connection", values)
             toast("Message Sent Successfully")
             setValues({
                 name: "",
